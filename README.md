@@ -6,7 +6,7 @@ The European Space Agency's (ESA) NanoSat MO Framework can be found [here](https
 
 ## Integrating intrusion-detection-system and malware-attack
 First, copy the `intrusion-detection-system` folder from this repository and paste it into the `nanosat-mo-framework/sdk/examples/space/` folder. Next, a couple of lines must be added to the project and build files.
-* `nanosat-mo-framework/sdk/examples/space/pom.xml`: Add
+* `nanosat-mo-framework/sdk/examples/space/pom.xml`: Add\\
   `<module>intrusion-detection-system</module>
    <module>malware-attack</module>`
 * `nanosat-mo-framework/sdk/sdk-package/pom.xml`: Add
