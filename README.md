@@ -5,7 +5,7 @@ This repository contains the code used in my Software Engineering Master Thesis 
 The European Space Agency's (ESA) NanoSat MO Framework can be found [here](https://github.com/esa/nanosat-mo-framework). First, make sure the correct versions of its prerequisites are installed, as stated in the README file. Then, follow the installation instructions in the `NMF Quickstart` section of the [documentation](https://nanosat-mo-framework.readthedocs.io/en/latest/quickstart.html).
 
 ## Integrating intrusion-detection-system and malware-attack
-First, copy the `intrusion-detection-system` folder from this repository and paste it into the `nanosat-mo-framework/sdk/examples/space/` folder. Next, a couple of lines must be added to the project and build files.
+First, copy the `intrusion-detection-system` and `malware-attack` folders from this repository and paste them into the `nanosat-mo-framework/sdk/examples/space/` folder. Next, a couple of lines must be added to the project and build files.
 * `nanosat-mo-framework/sdk/examples/space/pom.xml`: Add  
   `<module>intrusion-detection-system</module>`  
   `<module>malware-attack</module>`  
